@@ -1,0 +1,117 @@
+.main{
+    border: solid rgb(7, 4, 14);
+    height: 830px;
+    width: 1300px;
+    background-color: #0c1c2d;
+    margin:auto;
+}
+.card1 {
+    height: 600px;
+    width: 380px;
+    background-color: #18243c;
+    position: relative;
+    top:80px;
+    border-radius:18px;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+.card1 img {
+    height:330px;
+    width:330px;
+    position: relative;
+    border-radius:10px;
+    margin: 25px;
+    align-self: center;
+}
+.card1 h1{
+    color: white;
+    font-family: 'Outfit';
+    font-size: 21px;
+    font-weight: 500px;
+    margin-left: 25px;
+    position: relative;
+    bottom:20px;
+}
+.card1 h1:hover{
+    color: aquamarine;
+}
+.card1 h2{
+     color: #758baa;
+     font-size: 19px;
+     margin-left: 25px;
+     font-family: 'Outfit';
+     font-weight: 200;
+     position: relative;
+     bottom:20px;
+}
+  .card1 svg{
+    margin-left: 25px;
+    position: relative;
+    bottom:16px;
+  }
+  .card1 a{
+      text-decoration: none;
+      color: aqua;
+      position: relative;
+      bottom:19px;
+      font-family: 'Outfit';
+      margin-left: 5px;
+  }
+.clockicon svg{
+   
+     position: relative;
+     bottom:32px;
+     left: 700px;
+}
+.clockicon h1{
+    position: relative;
+    color: #758baa;
+    left: 730px;
+    font-family: 'Outfit';
+    font-size: 15px;
+    bottom:64px;
+    
+}
+
+.footer img {
+    position: relative;
+    height:30px;
+    width: 30px;
+    border-radius: 50px;
+    left:500px;
+    bottom:25px;
+    border: 1px solid white;
+}
+.footer h1{
+    font-family: 'Outfit';
+    position: relative;
+    left:545px;
+    color: #758baa;
+    font-size: 15px;
+    bottom:63px;
+}
+.footer a{
+    text-decoration: none;
+    position: relative;
+    left:638px;
+    color: white;
+    font-family: 'Outfit';
+    bottom:92px;
+}
+.footer a:hover{
+    color: aquamarine;
+}
+@media screen and (max-width: 600px) {
+   .main{
+ 
+    width: 700px;
+   }
+
+}
+ @media screen and (max-width: 480px) {
+   .main{
+ 
+    width: 450px;
+   }
+}
